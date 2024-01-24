@@ -1,0 +1,21 @@
+a=[1,2,3,4,5]
+print(a[-2])
+print("length no of",len(a))
+print("maximum no of",max(a))
+print("minimum no of",min(a))
+print("sum no of",sum(a))
+a.append(6)
+print(a)
+b=[7,8,9,10]
+a.extend(b)
+print(a)
+a.insert(4,4.5)
+print(a)
+a.remove(4.5)
+print(a)
+a.pop(8)
+print(a)
+a.clear()
+print(a)
+del a
+print(a)
