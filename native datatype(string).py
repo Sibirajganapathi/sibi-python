@@ -1,0 +1,42 @@
+#string
+a="welcome to python"
+print(len(a))
+print(max(a))
+print(min(a))
+print(a.isalpha())
+b="123456"
+print(b.isdigit())
+print(b.isalnum())
+print(a.isupper())
+print(a.islower())
+print(a.upper())
+print(a.lower())
+print(a.capitalize())
+print(a.title())
+print(a.count("o"))
+print(a.count("o",1,7))
+print(a.index("o"))
+print(a.index("o",7,10))
+print(a.rjust(20,"-"))
+print(a.ljust(20,"-"))
+print(a.center(30,"-"))
+print(a.zfill(30))
+c="-------python----------"
+print(c.lstrip("-"))
+print(c.rstrip("-"))
+print(c.strip("-"))
+print(a.replace(" ",""))
+print(a.swapcase())
+print(a.startswith("we"))
+print(a.endswith("ss"))
+f="23/01/23"
+g=f.split("/")
+print(g)
+#math funtion
+import math
+print(math.ceil(3.2))
+print(math.floor(3.9))
+print(round(5.4))
+print(math.exp(4))
+print(math.pow(3,4))
+print(int(math.sqrt(144)))
